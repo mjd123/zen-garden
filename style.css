@@ -1,6 +1,9 @@
 
 /*put normalize css here*/
 /*make sure you havent selected using ids*/
+/*make sure images are correct res and size*/
+/*dont make button hieght or width %*/
+
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300');
@@ -690,19 +693,27 @@ footer a:nth-of-type(4){
   width: 25.9375%;
   height: 45px;
   /*top: 65px; /*height plus margin*/
-    margin: 85px 20px 20px 67px;
+  margin: 85px 20px 20px 67px;
 }
 footer a:nth-of-type(5){
   width: 25.9375%;
   height: 45px;
   /*top: 65px; /*height plus margin*/
-    margin: 85px 20px 20px 170px;
+  margin: 85px 20px 20px 170px;
 }
 
 /*tablet portrait*/
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px) {
+
+h1{
+  font-size: 34px;
+}
+p{
+  font-size: 18px;
+}
+
 header h1{
   margin-top: 28px;
   margin-left: 10px;
@@ -710,13 +721,14 @@ header h1{
   height: 48px;
   padding-bottom: 9px;
   text-align: left;
-  font-size: 2.125em;
 }
 
 header h2 {
   width: 460px;
   padding-top: 20px;
+  margin-bottom: 10px;
   margin-left: 9px;
+  font-size: 36px;
 }
 
 .summary p:nth-of-type(2){ /*moved to top of page*/
@@ -725,11 +737,14 @@ width: 286px;
 height: 48px;
 z-index: -1;
 background-color: #ffffff;
+
 }
 
 .summary p{
   width: 420px;
   height: 99px;
+  margin-top: 0px;
+  font-size: 24px;
 }
 
 .summary p a{
@@ -747,7 +762,7 @@ background-color: #ffffff;
   margin-top: -50px;
   margin-left: 9px;
   width: 460px;
-  height: 147px;
+  height: 197px;
 }
 /*image*/
 .summary::after{
@@ -776,11 +791,10 @@ top: 75px;
 }
 .preamble h3{
   width: 302px;
-  height: 54px;
+  height: 76px;
   margin: 0px 366px 20px 300px;
   padding-top: 0px;
-  color: #4d2896;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .preamble p{
@@ -799,7 +813,7 @@ top: 75px;
 
 .explanation h3::before{
   background-image: url(images/oivuakxw-9-va-thomas-verbruggen@2x.png);
-    background-size: cover;
+  background-size: cover;
   width: 310px;
   height: 328px;
   margin: 0px 458px 0px 0px;
@@ -817,6 +831,7 @@ top: 75px;
   width: 428px;
   margin: 60px 10px 20px 330px;
   padding-top: 40px;
+  font-size: 28px;
 }
 
 .explanation p{
@@ -827,14 +842,200 @@ top: 75px;
 
 /*participation section*/
 
+.participation{
+height: 100%;
+margin-top: auto;
+}
 
 .participation h3{
-  margin: 60px 0px 18px 71px;
+  margin: 0px 469px 18px 54px;
   width: 227px;
   height: 38px;
-  font-size: 20px;
-  color: #4d2896;
+  font-size: 28px;
+}
+
+.participation p{
+  width: 428px;
+  margin: 18px 20px 0px 54px;
+  font-size: 18px;
+}
+
+.participation p:nth-of-type(3){ /*last para in white box and centred*/
+  margin: -273px 10px 64px 502px;
+  width: 236px;
+  height: 233px;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+}
+
+/*benifits section*/
+
+/*image*/
+.benefits::before{
+  background-image: url(images/8-dmtbpjjj-7-k-alexandra-seinet@2x.png);
+  background-size: cover;
+  width: 366px;
+  height: 366px;
+  margin: 0px 322px 60px 75px;
+}
+
+.benefits h3{
+  padding-top: 62px;
+  margin-left: 320px;
+  font-size: 28px;
+}
+
+.benefits p{
+  margin-left: 320px;
+  width: 440px;
+  height: 175px;
+  font-size: 18px;
+}
+
+/*requirements section*/
+
+.requirements{
+  height: 865px;
+  margin-top: 131px;
+}
+
+.requirements h3{
+  padding-top: 0px;
+  margin-right: 0px;
+  font-size: 28px;
+  width: 236px;
+  float: left;
+}
+
+.requirements p{
+  width: 493px;
+  margin-left: 267px;
+  font-size: 18px;
+}
+
+.requirements p:nth-of-type(1){
+  padding-top: 40px;
+}
+
+.requirements p:nth-of-type(5){
+  margin-bottom: 0px;
+}
+
+/*footer section -- moved to bottom of page*/
+
+footer{
+  width: 100%;
+  height: 147px;
+  padding-top: 0px;
+}
+
+footer a{
+  margin: 0px 136px 0px 137px;
+}
+
+footer a:nth-of-type(n){
+  width: 83px;
+  height: 45px;
+}
+
+footer a:nth-of-type(1){
+  margin: 0px 20px 20px 267px;
+}
+footer a:nth-of-type(2){
+  margin: 0px 20px 20px 360px;
+}
+footer a:nth-of-type(3){
+  margin: 0px 20px 20px 453px;
+}
+footer a:nth-of-type(4){
+  margin: 0px 20px 20px 545px;
+}
+footer a:nth-of-type(5){
+  margin: 0px 20px 20px 638px;
+}
+
+/*design section*/
+
+.design-selection{
+  width: 100%;
+   margin-top: 204px;
+}
+
+h3.select{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.design-selection ul{
+  margin: 0;
+  float: left;
+}
+
+.design-selection ul li:nth-of-type(n){
+  width: 152px; /* minus 10px because of padding*/
+  height: 172px;
   text-align: left;
+  margin: 20px 5px 20px 5px;
+  padding: 0px -10px 0px -10px;
+  float: left;
+  font-size: 18px;
+}
+
+
+.design-selection ul li:nth-of-type(4n + 1){
+  margin: 20px 5px 20px 20px;
+}
+
+/*numbers in boxes*/
+.design-selection ul li:nth-of-type(n)::before{
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+h3.archives{
+  margin: 80px 378px 0px 20px;
+  height: auto;
+  margin-top: 500px;
+}
+ h3.resources{
+  margin: 96px 378px 0px 20px;
+  width: 380px;
+  height: auto;
+  font-size: 24px;
+}
+
+.design-archives ul, .zen-resources ul{
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.design-archives ul li, .zen-resources ul li{
+  width: 355px;
+  float: left;
+}
+
+.design-archives ul li:nth-of-type(1){
+  margin-right: 19px;
+  margin-bottom: 40px;
+}
+
+.design-archives ul li:nth-of-type(2){
+  margin-right: 10px;
+}
+
+.zen-resources{
+  margin-top: 40px;
+  height: 261px;
+  padding-bottom: 40px;
+}
+
+.zen-resources ul{
+  height: 123px;
+}
+
+.zen-resources ul li:nth-of-type(1n){
+  margin-right: 19px;
 }
 
 }
