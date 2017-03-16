@@ -1,6 +1,9 @@
 
 /*put normalize css here*/
 /*make sure you havent selected using ids*/
+/*make sure images are correct res and size*/
+/*dont make button hieght or width %*/
+
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300');
@@ -324,8 +327,9 @@ color: transparent;  /* hides text*/
 
 .requirements{
   width: 100%;
-  height: 760px;
+  height: auto;
   margin-top: 0px;
+  padding-bottom: 20px;
   position: relative;
   background-color: rgba(143, 255, 222, 0.2);
 }
@@ -642,7 +646,7 @@ footer{
   text-decoration: none;
   width: 100%;
   height: 187px;
-  padding-top: 77px;
+  padding-top: 0%;
   background-color: rgba(143, 255, 222, 0.2);
 }
 
@@ -690,19 +694,27 @@ footer a:nth-of-type(4){
   width: 25.9375%;
   height: 45px;
   /*top: 65px; /*height plus margin*/
-    margin: 85px 20px 20px 67px;
+  margin: 85px 20px 20px 67px;
 }
 footer a:nth-of-type(5){
   width: 25.9375%;
   height: 45px;
   /*top: 65px; /*height plus margin*/
-    margin: 85px 20px 20px 170px;
+  margin: 85px 20px 20px 170px;
 }
 
 /*tablet portrait*/
 @media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px) {
+  and (min-width: 768px)
+  and (min-device-width: 768px) {
+
+h1{
+  font-size: 34px;
+}
+p{
+  font-size: 18px;
+}
+
 header h1{
   margin-top: 28px;
   margin-left: 10px;
@@ -710,13 +722,14 @@ header h1{
   height: 48px;
   padding-bottom: 9px;
   text-align: left;
-  font-size: 2.125em;
 }
 
 header h2 {
   width: 460px;
   padding-top: 20px;
+  margin-bottom: 10px;
   margin-left: 9px;
+  font-size: 36px;
 }
 
 .summary p:nth-of-type(2){ /*moved to top of page*/
@@ -730,6 +743,8 @@ background-color: #ffffff;
 .summary p{
   width: 420px;
   height: 99px;
+  margin-top: 0px;
+  font-size: 24px;
 }
 
 .summary p a{
@@ -747,8 +762,9 @@ background-color: #ffffff;
   margin-top: -50px;
   margin-left: 9px;
   width: 460px;
-  height: 147px;
+  height: 197px;
 }
+
 /*image*/
 .summary::after{
 background-image: url(images/img@2x.jpg);
@@ -776,11 +792,10 @@ top: 75px;
 }
 .preamble h3{
   width: 302px;
-  height: 54px;
+  height: 76px;
   margin: 0px 366px 20px 300px;
   padding-top: 0px;
-  color: #4d2896;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .preamble p{
@@ -799,7 +814,7 @@ top: 75px;
 
 .explanation h3::before{
   background-image: url(images/oivuakxw-9-va-thomas-verbruggen@2x.png);
-    background-size: cover;
+  background-size: cover;
   width: 310px;
   height: 328px;
   margin: 0px 458px 0px 0px;
@@ -817,6 +832,7 @@ top: 75px;
   width: 428px;
   margin: 60px 10px 20px 330px;
   padding-top: 40px;
+  font-size: 28px;
 }
 
 .explanation p{
@@ -827,14 +843,463 @@ top: 75px;
 
 /*participation section*/
 
+.participation{
+height: 100%;
+margin-top: auto;
+}
 
 .participation h3{
-  margin: 60px 0px 18px 71px;
+  margin: 0px 469px 18px 54px;
   width: 227px;
   height: 38px;
-  font-size: 20px;
-  color: #4d2896;
-  text-align: left;
+  font-size: 28px;
 }
+
+.participation p{
+  width: 428px;
+  margin: 18px 20px 0px 54px;
+  font-size: 18px;
+}
+
+.participation p:nth-of-type(3){ /*last para in white box and centred*/
+  margin: -273px 10px 64px 502px;
+  width: 236px;
+  height: 233px;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+}
+
+/*benifits section*/
+
+/*image*/
+.benefits::before{
+  background-image: url(images/8-dmtbpjjj-7-k-alexandra-seinet@2x.png);
+  background-size: cover;
+  width: 366px;
+  height: 366px;
+  margin: 0px 322px 60px 75px;
+}
+
+.benefits h3{
+  padding-top: 62px;
+  margin-left: 320px;
+  font-size: 28px;
+}
+
+.benefits p{
+  margin-left: 320px;
+  width: 440px;
+  height: 175px;
+  font-size: 18px;
+}
+
+/*requirements section*/
+
+.requirements{
+  height: 865px;
+  margin-top: 131px;
+}
+
+.requirements h3{
+  padding-top: 0px;
+  margin-right: 0px;
+  font-size: 28px;
+  width: 236px;
+  float: left;
+}
+
+.requirements p{
+  width: 493px;
+  margin-left: 267px;
+  font-size: 18px;
+}
+
+.requirements p:nth-of-type(1){
+  padding-top: 40px;
+}
+
+.requirements p:nth-of-type(5){
+  margin-bottom: 0px;
+}
+
+/*footer section -- moved to bottom of page*/
+
+footer{
+  width: 100%;
+  height: 147px;
+  padding-top: 0px;
+}
+
+footer a{
+  margin: 0px 136px 0px 137px;
+}
+
+footer a:nth-of-type(n){
+  width: 83px;
+  height: 45px;
+}
+
+footer a:nth-of-type(1){
+  margin: 0px 20px 20px 267px;
+}
+footer a:nth-of-type(2){
+  margin: 0px 20px 20px 360px;
+}
+footer a:nth-of-type(3){
+  margin: 0px 20px 20px 453px;
+}
+footer a:nth-of-type(4){
+  margin: 0px 20px 20px 545px;
+}
+footer a:nth-of-type(5){
+  margin: 0px 20px 20px 638px;
+}
+
+/*design section*/
+
+.design-selection{
+  width: 100%;
+   margin-top: 204px;
+}
+
+h3.select{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.design-selection ul{
+  margin: 0;
+  float: left;
+}
+
+.design-selection ul li:nth-of-type(n){
+  width: 152px; /* minus 10px because of padding*/
+  height: 172px;
+  text-align: left;
+  margin: 20px 5px 20px 5px;
+  padding: 0px -10px 0px -10px;
+  float: left;
+  font-size: 18px;
+}
+
+
+.design-selection ul li:nth-of-type(4n + 1){
+  margin: 20px 5px 20px 20px;
+}
+
+/*numbers in boxes*/
+.design-selection ul li:nth-of-type(n)::before{
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+h3.archives{
+  margin: 80px 378px 0px 20px;
+  height: auto;
+  margin-top: 500px;
+}
+ h3.resources{
+  margin: 96px 378px 0px 20px;
+  width: 380px;
+  height: auto;
+  font-size: 24px;
+}
+
+.design-archives ul, .zen-resources ul{
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.design-archives ul li, .zen-resources ul li{
+  width: 355px;
+  float: left;
+}
+
+.design-archives ul li:nth-of-type(1){
+  margin-right: 19px;
+  margin-bottom: 40px;
+}
+
+.design-archives ul li:nth-of-type(2){
+  margin-right: 10px;
+}
+
+.zen-resources{
+  margin-top: 40px;
+  height: 261px;
+  padding-bottom: 40px;
+}
+
+.zen-resources ul{
+  height: 123px;
+}
+
+.zen-resources ul li:nth-of-type(1n){
+  margin-right: 19px;
+}
+
+}
+
+/*desktop*/
+@media only screen
+  and (min-width: 1024px)
+  and (min-device-width: 1024px) {
+
+/*buttons container*/
+.summary p:nth-of-type(2){ /*moved to top of page*/
+  margin: 20px 8px 20px 698px;
+}
+
+/*intro*/
+
+header h2 {
+  margin-left: 42px;
+}
+
+/*purple section*/
+.summary::before{ /*background for top buttons*/
+  height: 197px;
+  margin-left: 42px;
+}
+
+.summary p:nth-of-type(1){
+  margin: 10px 20px 20px 62px;
+}
+
+/*image*/
+.summary::after{
+background-image: url(images/img@3x.jpg);
+margin-left: 362px;
+}
+
+/*benifits section*/
+
+.preamble{
+  margin-top: 151px;
+}
+
+/*image*/
+.preamble::before{
+  background-image: url(images/ncq-2-sguvlgo-annie-spratt@3x.png);
+  width: 380px;
+  height: 380px;
+  margin: -60px 522px 193px 122px;
+}
+
+.preamble h3{
+  width: 302px;
+  height: 76px;
+  margin-left: 442px;
+  margin-top: 215px;
+}
+
+.preamble p{
+  width: 420px;
+  margin-left: 442px;
+}
+
+.preamble p:nth-of-type(3){
+  left: -398px;
+  top: 0px;
+  margin-top: 0px;
+}
+
+/*whats this all about section*/
+
+.explanation h3::before{
+  background-image: url(images/oivuakxw-9-va-thomas-verbruggen@3x.png);
+  width: 328px;
+  height: 328px;
+  margin: 0px 696px 0px 0px;
+}
+
+.explanation{
+  margin-top: 62px;
+  padding-bottom: 10px;
+}
+
+.explanation h3{
+  margin: 60px 10px 20px 348px;
+  padding-top: 60px;
+}
+
+.explanation p{
+  width: 610px;
+  margin: 0px 10px 20px 348px;
+}
+
+/*participation section*/
+
+.participation{
+height: 100%;
+margin-top: auto;
+}
+
+.participation h3{
+  margin: 0px 469px 18px 54px;
+  padding-top: 60px;
+}
+
+.participation p{
+  width: 428px;
+  margin: 18px 20px 0px 54px;
+}
+
+.participation p:nth-of-type(3){ /*last para in white box and centred*/
+  margin: -273px 10px 64px 602px;
+  width: 300px;
+  height: 233px;
+  font-size: 17px;
+}
+
+/*benifits section*/
+
+/*image*/
+.benefits::before{
+  background-image: url(images/8-dmtbpjjj-7-k-alexandra-seinet@3x.png);
+  background-size: cover;
+  width: 380px;
+  height: 380px;
+  margin: 0px 322px 60px 122px;
+}
+
+.benefits h3{
+  margin-left: 442px;
+}
+
+.benefits p{
+  margin-left: 442px;
+  width: 460px;
+  height: 150px;
+}
+
+/*requirements section*/
+
+.requirements{
+  height: auto;
+  margin-top: 170px;
+}
+
+.requirements h3{
+  margin-right: 18px;
+  margin-top: 60px;
+  width: 302px;
+}
+
+.requirements p{
+  width: 620px;
+  margin-left: 362px;
+  font-size: 18px;
+}
+
+.requirements p:nth-of-type(1){
+  padding-top: 60px;
+}
+
+.requirements p:nth-of-type(4){
+  padding-bottom: 41px;
+  margin-bottom: 0px;
+}
+
+/*footer section -- moved to bottom of page*/
+
+footer{
+  width: 100%;
+  height: 146px;
+  padding-top: -100px;
+  position: absolute;
+  margin-top: 100%;
+  background-color: #4d2896;
+
+}
+
+footer a {
+  text-align: center;
+  margin: 83px 0px 0px 0px;
+  width: 25.9375%;
+  height: 45px;
+  color: #3fffc6;
+  border: 1px solid #3fffc6;
+}
+
+footer a:nth-of-type(n){
+  margin-top: 83px;
+}
+
+.requirements p:nth-of-type(5){
+margin-top: 102%;
+position: absolute;
+padding: 0px;
+text-align: center;
+margin-left: 59px;
+width: 940px;
+z-index: 1;
+font-size: 16px;
+color: #3fffc6;
+}
+
+.requirements p:nth-of-type(5) a{
+  font-size: 16px;
+  color: #3fffc6;
+  font-weight: 600;
+}
+
+footer a:hover{
+  color: #4d2896;
+  border: 1px solid #4d2896;
+  background-color: #3fffc6;
+
+}
+
+/*design section*/
+
+.design-selection{
+  margin-top: 40px;
+}
+
+h3.select{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.design-selection ul{
+  margin-left: 56px;
+  width: calc(100% - 112px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.design-selection ul li:nth-of-type(n){
+  width: 198px; /* minus 10px because of padding*/
+  height: 208px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+a .design-name{
+  margin-top: 150px;
+}
+
+h3.archives{
+  margin: 80px 378px 0px 56px;
+  height: auto;
+  margin-top: 540px;
+}
+
+h3.resources{
+ margin: 96px 378px 0px 56px;
+}
+
+.design-archives ul, .zen-resources ul {
+margin-left: 56px;
+}
+
+.design-archives ul li, .zen-resources ul li{
+  margin-left: 0px;
+  width: 445px;
+}
+
+
 
 }
