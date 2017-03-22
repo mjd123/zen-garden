@@ -179,7 +179,7 @@ color: transparent;  /* hides text*/
 .preamble::before{
   content: "";
   position: absolute;
-  background-image: url(Images/ncq-2-sguvlgo-annie-spratt.png);
+  background-image: url(Images/ncq2sguvlgoanniespratt.png);
   height: 260px;
   width: 81.25%;
   z-index: -5;
@@ -224,7 +224,7 @@ color: transparent;  /* hides text*/
 .explanation h3::before{
   content: "";
   position: absolute;
-  background-image: url(Images/oivuakxw-9-va-thomas-verbruggen.png);
+  background-image: url(Images/oivuakxw9vathomasverbruggen.png);
   width: 81.25%;
   height: 260px;
   z-index: -1;
@@ -311,7 +311,7 @@ color: transparent;  /* hides text*/
 .benefits::before{
   content: "";
   position: absolute;
-  background-image: url(Images/8-dmtbpjjj-7-k-alexandra-seinet.png);
+  background-image: url(Images/8dmtbpjjj7kalexandraseinet.png);
   width: 81.25%;
   height: 260px;
   z-index: -1;
