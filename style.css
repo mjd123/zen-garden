@@ -4,9 +4,15 @@
 /*make sure images are correct res and size*/
 /*dont make button hieght or width %*/
 
+/** {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}*/
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300');
+
 h1, h2, h3{
   font-family: 'Abril Fatface', cursive;
   font-weight: normal;
@@ -57,7 +63,7 @@ header h1{
   padding-bottom: 13px;
   border-bottom: 1px solid #e3e3e3;
   color: #212121;
-  font-size: 2em;
+  font-size: 32px;
 }
 
 header h1:before{
@@ -93,7 +99,7 @@ header h2 {
   position: absolute;
   background-image: url(images/img.jpg);
   width: 93.75%;
-  height: 42.2916%;
+  height: 203px;
   z-index: -5;
   margin: 0px 0px 20px 20px;
   top: 203px;
@@ -101,6 +107,7 @@ header h2 {
 
 .summary p{
   width: 75%;
+  height: 75px;
   margin-right: 60px;
   margin-left: 20px;
   color:#ffffff;
@@ -124,8 +131,9 @@ color: transparent;  /* hides text*/
 /*Top buttons*/
 .summary p a{
   text-align: center;
-  margin-top: 16px;
-  position: absolute;
+  margin: 16px auto 0px auto;
+  left: 0;
+  right: 0;
   width: 128px;
   height: 44px;
   border-radius: 35px;
@@ -145,17 +153,19 @@ color: transparent;  /* hides text*/
 }
 /*left button*/
 .summary p a:nth-of-type(1){
-  left: 6.25%;
+  position: absolute;
+  margin-left: 6.25%;
   line-height: 40px;
 }
 /*right button*/
 .summary p a:nth-of-type(2){
-  right: 6.25%;
+  position: absolute;
+  margin-right: 6.25%;
   /*left: calc(6.25% + 155px);*/
   line-height: 40px;
 }
 
-.summary::before{ /*background for top buttons*/
+.summary::before{ /*background for purple background text*/
   content: "";
   position: absolute;
   margin-top: -50px;
@@ -171,7 +181,7 @@ color: transparent;  /* hides text*/
   position: absolute;
   background-image: url(images/ncq-2-sguvlgo-annie-spratt.png);
   height: 260px;
-  width: 260px;
+  width: 81.25%;
   z-index: -5;
   margin: 0px 60px 0px 0px;
 }
@@ -180,7 +190,7 @@ color: transparent;  /* hides text*/
   margin-top: 100px;
   width: 100%;
   height: auto;
-  padding-bottom: 79px;
+  padding-bottom: 11%;
 }
 
 .preamble h3{
@@ -239,6 +249,7 @@ color: transparent;  /* hides text*/
 }
 .explanation p{
   width: 68.75%;
+  height: auto;
   height: 276px;
   margin-left: 80px;
   margin-right: 20px;
@@ -246,6 +257,7 @@ color: transparent;  /* hides text*/
   text-align: left;
 }
 .explanation p:nth-of-type(1){
+  height: auto;
   font-weight: 600;
 }
 
@@ -279,7 +291,7 @@ color: transparent;  /* hides text*/
 .participation p:nth-of-type(3){ /*last para in white box and centred*/
   margin: 20px 0px 0px 20px;
   width: 75%;
-  height: 220px;
+  height: auto;
   padding: 20px 20px 20px 20px;
   background-color: #ffffff;
   color: #4a4a4a;
@@ -398,7 +410,7 @@ h3.archives, h3.resources{
   padding: 0;
   list-style-type: none;
   margin: 20px 20px 20px 20px;
-  font-size: 0.9em;
+  font-size: 14px;
 }
 
 .design-selection ul li{
@@ -417,7 +429,7 @@ a .design-name{
 
 .design-selection ul li a{
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 14px;
   color: #8343ff
 }
 
@@ -430,7 +442,7 @@ a .design-name{
   float: left;
   font-family: 'Roboto', sans-serif;
   line-height: 20px;
-  font-size: 1.125em;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -709,8 +721,7 @@ footer a:nth-of-type(5){
 
 /*tablet portrait*/
 @media only screen
-  and (min-width: 768px)
-  and (min-device-width: 768px) {
+  and (min-device-width: 768px){
 
 h1{
   font-size: 34px;
@@ -722,7 +733,7 @@ p{
 header h1{
   margin-top: 28px;
   margin-left: 10px;
-  width: 100%;
+  width: 748px;
   height: 48px;
   padding-bottom: 9px;
   text-align: left;
@@ -885,8 +896,9 @@ margin-top: auto;
 }
 
 .benefits h3{
+  width: 440px;
   padding-top: 62px;
-  margin-left: 320px;
+  margin-right: 8px;
   font-size: 28px;
 }
 
@@ -900,8 +912,9 @@ margin-top: auto;
 /*requirements section*/
 
 .requirements{
-  height: 865px;
+  height: 825px;
   margin-top: 131px;
+  padding-bottom: 0px;
 }
 
 .requirements h3{
@@ -998,19 +1011,19 @@ h3.select{
 }
 
 h3.archives{
-  margin: 80px 378px 0px 20px;
+  margin: 80px 0px 0px 20px;
   height: auto;
   margin-top: 500px;
 }
  h3.resources{
-  margin: 96px 378px 0px 20px;
+  margin: 96px 0px 0px 20px;
   width: 380px;
   height: auto;
   font-size: 24px;
 }
 
 .design-archives ul, .zen-resources ul{
-  width: 100%;
+  width: 748px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -1047,8 +1060,12 @@ h3.archives{
 
 /*desktop*/
 @media only screen
-  and (min-width: 1024px)
-  and (min-device-width: 1024px) {
+  and (min-device-width: 1023px) {
+
+html,body{
+  max-width: 1024px;
+  overflow-x: hidden;
+}
 
 /*buttons container*/
 .summary p:nth-of-type(2){ /*moved to top of page*/
@@ -1170,6 +1187,7 @@ margin-top: auto;
 
 .benefits h3{
   margin-left: 442px;
+  width: 440px;
 }
 
 .benefits p{
@@ -1303,7 +1321,6 @@ margin-left: 56px;
   margin-left: 0px;
   width: 445px;
 }
-
 
 
 }
