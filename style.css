@@ -215,7 +215,7 @@ color: transparent;  /* hides text*/
 .preamble p:nth-of-type(3){
   position: relative;
   width: 62.5%;
-  height: 152px;
+  height: auto;
   left: -60px;
   top: 40px;
   color: #4a4a4a;
@@ -235,7 +235,7 @@ color: transparent;  /* hides text*/
 .explanation{
   width: 100%;
   height: 100%;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   color: transparent;
   background-color: rgba(143, 255, 222, 0.2);
 }
@@ -259,6 +259,10 @@ color: transparent;  /* hides text*/
 .explanation p:nth-of-type(1){
   height: auto;
   font-weight: 600;
+}
+
+.explanation p:nth-of-type(2){
+  height: inherit;
 }
 
 .participation{
@@ -406,6 +410,7 @@ h3.archives, h3.resources{
   color: #4a4a4a;
 }
 
+/* design section boxes*/
 .design-selection ul{
   padding: 0;
   list-style-type: none;
@@ -590,8 +595,6 @@ a.design-name{
   margin-bottom: 40px;
 }
 
-/***********/
-
 .design-selection ul li {
   text-align: center;
   margin: auto;
@@ -663,6 +666,7 @@ footer{
   width: 100%;
   height: 187px;
   padding-top: 0%;
+  padding-left: -16px;
   background-color: rgba(143, 255, 222, 0.2);
 }
 
@@ -670,8 +674,6 @@ footer a {
   text-align: center;
   margin: 67px 0px 0px 0px;
   position: absolute;
-  width: 25.9375%;
-  height: 45px;
   border-radius: 100px;
   border: 1px solid #8546ff;
   color: #8546ff;
@@ -694,17 +696,17 @@ footer a:hover{
 footer a:nth-of-type(1){
   width: 83px;
   height: 45px;
-  margin: 20px 6.25% 20px 4.68%;
+  margin: 20px 6.25% 20px 5%;
 }
 footer a:nth-of-type(2){
   width: 83px;
   height: 45px;
-  margin: 20px 6.25% 20px 36.87%;
+  margin: 20px 6.25% 20px 37.18%;
 }
 footer a:nth-of-type(3){
   width: 83px;
   height: 45px;
-  margin: 20px 6.25% 20px 69.06%;
+  margin: 20px 6.25% 20px 69.37%;
 }
 footer a:nth-of-type(4){
   width: 83px;
