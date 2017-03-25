@@ -97,7 +97,7 @@ header h2 {
 .summary::after{
   content: "";
   position: absolute;
-  background-image: url(Images/img.jpg);
+  background-image: url(images/img.jpg);
   width: 93.75%;
   height: 203px;
   z-index: -5;
@@ -179,7 +179,9 @@ color: transparent;  /* hides text*/
 .preamble::before{
   content: "";
   position: absolute;
-  background-image: url(Images/ncq2sguvlgoanniespratt.png);
+  background-image: url(images/ncq-2-sguvlgo-annie-spratt@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 260px;
   width: 81.25%;
   z-index: -5;
@@ -224,7 +226,9 @@ color: transparent;  /* hides text*/
 .explanation h3::before{
   content: "";
   position: absolute;
-  background-image: url(Images/oivuakxw9vathomasverbruggen.png);
+  background-image: url(images/oivuakxw-9-va-thomas-verbruggen@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 81.25%;
   height: 260px;
   z-index: -1;
@@ -311,7 +315,9 @@ color: transparent;  /* hides text*/
 .benefits::before{
   content: "";
   position: absolute;
-  background-image: url(Images/8dmtbpjjj7kalexandraseinet.png);
+  background-image: url(images/8-dmtbpjjj-7-k-alexandra-seinet@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 81.25%;
   height: 260px;
   z-index: -1;
@@ -447,7 +453,7 @@ a .design-name{
   float: left;
   font-family: 'Roboto', sans-serif;
   line-height: 20px;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -735,7 +741,6 @@ p{
 header h1{
   margin-top: 28px;
   margin-left: 10px;
-  width: 748px;
   height: 48px;
   padding-bottom: 9px;
   text-align: left;
@@ -750,6 +755,7 @@ header h2 {
 }
 
 .summary p:nth-of-type(2){ /*moved to top of page*/
+  left: auto;
 margin: 20px 8px 20px 476px;
 width: 286px;
 height: 48px;
@@ -771,7 +777,11 @@ background-color: #ffffff;
   height: 45px;
 }
 .summary p a:nth-of-type(1){
-  left: 0;
+  left: 0px;
+  margin-left: -20px;
+}
+.summary p a:nth-of-type(1){
+  margin-right: 0px;
 }
 
 /*purple section*/
@@ -796,6 +806,7 @@ top: 75px;
 
 .preamble{
   margin-top: 151px;
+  padding-bottom: 0px;
 }
 
 /*image*/
@@ -843,6 +854,7 @@ top: 75px;
   height: 100%;
   margin-top: 82px;
   padding-bottom: 10px;
+  position: relative;
 }
 
 .explanation h3{
@@ -897,6 +909,10 @@ margin-top: auto;
   margin: 0px 322px 60px 75px;
 }
 
+.benefits{
+  position: relative;
+}
+
 .benefits h3{
   width: 440px;
   padding-top: 62px;
@@ -914,9 +930,9 @@ margin-top: auto;
 /*requirements section*/
 
 .requirements{
-  height: 825px;
+  height: auto;
   margin-top: 131px;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
 }
 
 .requirements h3{
@@ -945,7 +961,7 @@ margin-top: auto;
 
 footer{
   width: 100%;
-  height: 147px;
+  height: 104px;
   padding-top: 0px;
 }
 
@@ -978,7 +994,7 @@ footer a:nth-of-type(5){
 
 .design-selection{
   width: 100%;
-   margin-top: 204px;
+  margin-top: 204px;
 }
 
 h3.select{
@@ -1062,11 +1078,13 @@ h3.archives{
 
 /*desktop*/
 @media only screen
-  and (min-device-width: 1023px) {
+  and (min-device-width: 1023px)
+  and (min-width: 1023px) {
 
 html,body{
   max-width: 1024px;
-  overflow-x: hidden;
+  margin: auto;
+  padding: auto;
 }
 
 /*buttons container*/
@@ -1172,7 +1190,7 @@ margin-top: auto;
 .participation p:nth-of-type(3){ /*last para in white box and centred*/
   margin: -273px 10px 64px 602px;
   width: 300px;
-  height: 233px;
+  height: auto;
   font-size: 17px;
 }
 
@@ -1184,7 +1202,7 @@ margin-top: auto;
   background-size: cover;
   width: 380px;
   height: 380px;
-  margin: 0px 322px 60px 122px;
+  margin: 0px 0 60px 122px;
 }
 
 .benefits h3{
@@ -1222,58 +1240,42 @@ margin-top: auto;
 }
 
 .requirements p:nth-of-type(4){
-  padding-bottom: 41px;
+  padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
 /*footer section -- moved to bottom of page*/
 
-footer{
-  width: 100%;
-  height: 146px;
-  padding-top: -100px;
-  position: absolute;
-  margin-top: 100%;
-  background-color: #4d2896;
+.main.supporting{
+height: auto;
+}
 
+footer{
+  width: 1024px;
+  height: 103px;
+  position: relative;
 }
 
 footer a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   text-align: center;
   margin: 83px 0px 0px 0px;
-  width: 25.9375%;
+  width: 83px;
   height: 45px;
-  color: #3fffc6;
-  border: 1px solid #3fffc6;
+  color: #8546ff;
+  border: 1px solid #8546ff;
 }
 
 footer a:nth-of-type(n){
   margin-top: 83px;
 }
 
-.requirements p:nth-of-type(5){
-margin-top: 102%;
-position: absolute;
-padding: 0px;
-text-align: center;
-margin-left: 59px;
-width: 940px;
-z-index: 1;
-font-size: 16px;
-color: #3fffc6;
-}
-
-.requirements p:nth-of-type(5) a{
-  font-size: 16px;
-  color: #3fffc6;
-  font-weight: 600;
-}
-
 footer a:hover{
-  color: #4d2896;
+  color: #ffffff;
   border: 1px solid #4d2896;
-  background-color: #3fffc6;
-
+  background-color: #4d2896;
 }
 
 /*design section*/
@@ -1306,7 +1308,7 @@ a .design-name{
 }
 
 h3.archives{
-  margin: 80px 378px 0px 56px;
+  margin: 80px 0px 0px 56px;
   height: auto;
   margin-top: 540px;
 }
@@ -1316,12 +1318,13 @@ h3.resources{
 }
 
 .design-archives ul, .zen-resources ul {
-margin-left: 56px;
+  width: calc(1024px - 56px);
+  margin: 0px 0px 0px 56px;
 }
 
 .design-archives ul li, .zen-resources ul li{
+  width: 460px;
   margin-left: 0px;
-  width: 445px;
 }
 
 
