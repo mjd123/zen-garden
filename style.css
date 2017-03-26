@@ -729,7 +729,8 @@ footer a:nth-of-type(5){
 
 /*tablet portrait*/
 @media only screen
-  and (min-device-width: 768px){
+  and (min-device-width: 768px)
+  and (min-width: 768px){
 
 h1{
   font-size: 34px;
@@ -1270,6 +1271,22 @@ footer a {
 
 footer a:nth-of-type(n){
   margin-top: 83px;
+}
+
+footer a:nth-of-type(1){
+  left: 95px;
+}
+footer a:nth-of-type(2){
+  left: 115px;
+}
+footer a:nth-of-type(3){
+  left: 135px;
+}
+footer a:nth-of-type(4){
+  left: 155px;
+}
+footer a:nth-of-type(5){
+  left: 175px;
 }
 
 footer a:hover{
