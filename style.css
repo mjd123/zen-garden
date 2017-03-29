@@ -97,7 +97,7 @@ header h2 {
 .summary::after{
   content: "";
   position: absolute;
-  background-image: url(Images/img.jpg);
+  background-image: url(images/img.jpg);
   width: 93.75%;
   height: 203px;
   z-index: -5;
@@ -179,7 +179,7 @@ color: transparent;  /* hides text*/
 .preamble::before{
   content: "";
   position: absolute;
-  background-image: url(Images/ncq2sguvlgoanniespratt@2x.png);
+  background-image: url(images/ncq-2-sguvlgo-annie-spratt@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 260px;
@@ -226,7 +226,7 @@ color: transparent;  /* hides text*/
 .explanation h3::before{
   content: "";
   position: absolute;
-  background-image: url(Images/oivuakxw9vathomasverbruggen@2x.png);
+  background-image: url(images/oivuakxw-9-va-thomas-verbruggen@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 81.25%;
@@ -315,7 +315,7 @@ color: transparent;  /* hides text*/
 .benefits::before{
   content: "";
   position: absolute;
-  background-image: url(Images/8dmtbpjjj7kalexandraseinet@2x.png);
+  background-image: url(images/8-dmtbpjjj-7-k-alexandra-seinet@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 81.25%;
@@ -751,13 +751,13 @@ header h2 {
   width: 460px;
   padding-top: 20px;
   margin-bottom: 10px;
-  margin-left: 9px;
+  margin-left: 1.17%;
   font-size: 36px;
 }
 
 .summary p:nth-of-type(2){ /*moved to top of page*/
   left: auto;
-margin: 20px 8px 20px 476px;
+margin: 20px 8px 20px 61.97%;
 width: 286px;
 height: 48px;
 z-index: -1;
@@ -786,20 +786,20 @@ background-color: #ffffff;
 }
 
 /*purple section*/
-.summary::before{ /*background for top buttons*/
+.summary::before{ /*background for first paragraph*/
   margin-top: -50px;
-  margin-left: 9px;
+  margin-left: 1.17%;
   width: 460px;
   height: 197px;
 }
 
 /*image*/
 .summary::after{
-background-image: url(Images/img@3x.jpg);
+background-image: url(images/img@3x.jpg);
 background-size: cover;
 width: 620px;
 height: 300px;
-margin: 40px 11px 60px 137px;
+margin: 40px 11px 60px 17.83%;
 top: 75px;
 }
 
@@ -812,24 +812,24 @@ top: 75px;
 
 /*image*/
 .preamble::before{
-  background-image: url(Images/ncq2sguvlgoanniespratt@3x.png);
+  background-image: url(images/ncq-2-sguvlgo-annie-spratt@3x.png);
   background-size: cover;
   width: 367px;
   height: 367px;
   z-index: -5;
-  margin: -35px 326px 206px 75px;
+  margin: -35px 326px 206px 9.76%;
 }
 .preamble h3{
   width: 302px;
   height: 76px;
-  margin: 0px 366px 20px 300px;
+  margin: 0px 366px 20px 39.06%;
   padding-top: 0px;
   font-size: 28px;
 }
 
 .preamble p{
   width: 460px;
-  margin: 20px 8px 0px 300px;
+  margin: 20px 8px 0px 39.06%;
 }
 
 .preamble p:nth-of-type(3){
@@ -842,7 +842,7 @@ top: 75px;
 /*whats this all about section*/
 
 .explanation h3::before{
-  background-image: url(Images/oivuakxw9vathomasverbruggen@3x.png);
+  background-image: url(images/oivuakxw-9-va-thomas-verbruggen@3x.png);
   background-size: cover;
   width: 310px;
   height: 328px;
@@ -860,7 +860,7 @@ top: 75px;
 
 .explanation h3{
   width: 428px;
-  margin: 60px 10px 20px 330px;
+  margin: 60px 10px 20px 42.96%;
   padding-top: 40px;
   font-size: 28px;
 }
@@ -868,7 +868,7 @@ top: 75px;
 .explanation p{
   width: 428px;
   height: auto;
-  margin: 0px 10px 20px 330px;
+  margin: 0px 10px 20px 42.96%;
 }
 
 /*participation section*/
@@ -879,7 +879,7 @@ margin-top: auto;
 }
 
 .participation h3{
-  margin: 0px 469px 18px 54px;
+  margin: 0px 469px 18px 7.03%;
   width: 227px;
   height: 38px;
   font-size: 28px;
@@ -887,14 +887,14 @@ margin-top: auto;
 
 .participation p{
   width: 428px;
-  margin: 18px 20px 0px 54px;
+  margin: 18px 20px 0px 7.03%;
   font-size: 18px;
 }
 
 .participation p:nth-of-type(3){ /*last para in white box and centred*/
-  margin: -273px 10px 64px 502px;
+  margin: -273px 10px 64px 65.36%;
   width: 236px;
-  height: 233px;
+  height: auto;
   padding: 10px 10px 10px 10px;
   font-size: 16px;
 }
@@ -903,11 +903,11 @@ margin-top: auto;
 
 /*image*/
 .benefits::before{
-  background-image: url(Images/8dmtbpjjj7kalexandraseinet@3x.png);
+  background-image: url(images/8-dmtbpjjj-7-k-alexandra-seinet@3x.png);
   background-size: cover;
   width: 366px;
   height: 366px;
-  margin: 0px 322px 60px 75px;
+  margin: 0px 322px 60px 9.76%;
 }
 
 .benefits{
@@ -917,12 +917,12 @@ margin-top: auto;
 .benefits h3{
   width: 440px;
   padding-top: 62px;
-  margin-right: 8px;
+  margin-left: 41.66%;
   font-size: 28px;
 }
 
 .benefits p{
-  margin-left: 320px;
+  margin-left: 41.66%;
   width: 440px;
   height: 175px;
   font-size: 18px;
@@ -939,6 +939,7 @@ margin-top: auto;
 .requirements h3{
   padding-top: 0px;
   margin-right: 0px;
+  margin-left: 2.60%;
   font-size: 28px;
   width: 236px;
   float: left;
@@ -946,7 +947,7 @@ margin-top: auto;
 
 .requirements p{
   width: 493px;
-  margin-left: 267px;
+  margin-left: 34.76%;
   font-size: 18px;
 }
 
@@ -976,26 +977,26 @@ footer a:nth-of-type(n){
 }
 
 footer a:nth-of-type(1){
-  margin: 0px 20px 20px 267px;
+  margin: 20px 20px 20px 34.76%;
 }
 footer a:nth-of-type(2){
-  margin: 0px 20px 20px 360px;
+  margin: 20px 20px 20px 46.87%;
 }
 footer a:nth-of-type(3){
-  margin: 0px 20px 20px 453px;
+  margin: 20px 20px 20px 58.98%;
 }
 footer a:nth-of-type(4){
-  margin: 0px 20px 20px 545px;
+  margin: 20px 20px 20px 70.96%;
 }
 footer a:nth-of-type(5){
-  margin: 0px 20px 20px 638px;
+  margin: 20px 20px 20px 83.07%;
 }
 
 /*design section*/
 
 .design-selection{
   width: 100%;
-  margin-top: 204px;
+  margin-top: 144px;
 }
 
 h3.select{
@@ -1004,7 +1005,7 @@ h3.select{
 }
 
 .design-selection ul{
-  margin: 0;
+  margin: 0px 0px 20px 2.60%;
   float: left;
 }
 
@@ -1012,7 +1013,7 @@ h3.select{
   width: 152px; /* minus 10px because of padding*/
   height: 172px;
   text-align: left;
-  margin: 20px 5px 20px 5px;
+  margin: 20px 10px 20px 0px;
   padding: 0px -10px 0px -10px;
   float: left;
   font-size: 18px;
@@ -1020,7 +1021,7 @@ h3.select{
 
 
 .design-selection ul li:nth-of-type(4n + 1){
-  margin: 20px 5px 20px 20px;
+  margin: 20px 10px 20px 0px;
 }
 
 /*numbers in boxes*/
@@ -1042,18 +1043,17 @@ h3.archives{
 }
 
 .design-archives ul, .zen-resources ul{
-  width: 748px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  width: 97.39%;
+  margin: 0px 2.60% 0px 2.60%;
 }
 
 .design-archives ul li, .zen-resources ul li{
-  width: 355px;
+  width: 46.22%;
   float: left;
 }
 
 .design-archives ul li:nth-of-type(1){
-  margin-right: 19px;
+  margin-right: 2.47%;
   margin-bottom: 40px;
 }
 
@@ -1072,7 +1072,7 @@ h3.archives{
 }
 
 .zen-resources ul li:nth-of-type(1n){
-  margin-right: 19px;
+  margin-right: 2.47%;
 }
 
 }
@@ -1111,7 +1111,7 @@ header h2 {
 
 /*image*/
 .summary::after{
-background-image: url(Images/img@3x.jpg);
+background-image: url(images/img@3x.jpg);
 margin-left: 362px;
 }
 
@@ -1123,7 +1123,7 @@ margin-left: 362px;
 
 /*image*/
 .preamble::before{
-  background-image: url(Images/ncq2sguvlgoanniespratt@3x.png);
+  background-image: url(images/ncq-2-sguvlgo-annie-spratt@3x.png);
   width: 380px;
   height: 380px;
   margin: -60px 522px 193px 122px;
@@ -1150,7 +1150,7 @@ margin-left: 362px;
 /*whats this all about section*/
 
 .explanation h3::before{
-  background-image: url(Images/oivuakxw9vathomasverbruggen@3x.png);
+  background-image: url(images/oivuakxw-9-va-thomas-verbruggen@3x.png);
   width: 328px;
   height: 328px;
   margin: 0px 696px 0px 0px;
@@ -1199,7 +1199,7 @@ margin-top: auto;
 
 /*image*/
 .benefits::before{
-  background-image: url(Images/8dmtbpjjj7kalexandraseinet@3x.png);
+  background-image: url(images/8-dmtbpjjj-7-k-alexandra-seinet@3x.png);
   background-size: cover;
   width: 380px;
   height: 380px;
@@ -1275,18 +1275,23 @@ footer a:nth-of-type(n){
 
 footer a:nth-of-type(1){
   left: 95px;
+  margin-left: 267px;
 }
 footer a:nth-of-type(2){
   left: 115px;
+  margin-left: 360px;
 }
 footer a:nth-of-type(3){
   left: 135px;
+  margin-left: 453px;
 }
 footer a:nth-of-type(4){
   left: 155px;
+  margin-left: 545px;
 }
 footer a:nth-of-type(5){
   left: 175px;
+  margin-left: 638px
 }
 
 footer a:hover{
