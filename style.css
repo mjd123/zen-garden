@@ -97,7 +97,7 @@ header h2 {
 .summary::after{
   content: "";
   position: absolute;
-  background-image: url(images/img.jpg);
+  background-image: url(Images/img.jpg);
   width: 93.75%;
   height: 203px;
   z-index: -5;
@@ -179,7 +179,7 @@ color: transparent;  /* hides text*/
 .preamble::before{
   content: "";
   position: absolute;
-  background-image: url(images/ncq-2-sguvlgo-annie-spratt@2x.png);
+  background-image: url(Images/ncq2sguvlgoanniespratt@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 260px;
@@ -226,7 +226,7 @@ color: transparent;  /* hides text*/
 .explanation h3::before{
   content: "";
   position: absolute;
-  background-image: url(images/oivuakxw-9-va-thomas-verbruggen@2x.png);
+  background-image: url(Images/oivuakxw9vathomasverbruggen@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 81.25%;
@@ -315,7 +315,7 @@ color: transparent;  /* hides text*/
 .benefits::before{
   content: "";
   position: absolute;
-  background-image: url(images/8-dmtbpjjj-7-k-alexandra-seinet@2x.png);
+  background-image: url(Images/8dmtbpjjj7kalexandraseinet@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 81.25%;
@@ -795,7 +795,7 @@ background-color: #ffffff;
 
 /*image*/
 .summary::after{
-background-image: url(images/img@3x.jpg);
+background-image: url(Images/img@3x.jpg);
 background-size: cover;
 width: 620px;
 height: 300px;
@@ -812,7 +812,7 @@ top: 75px;
 
 /*image*/
 .preamble::before{
-  background-image: url(images/ncq-2-sguvlgo-annie-spratt@3x.png);
+  background-image: url(Images/ncq2sguvlgoanniespratt@3x.png);
   background-size: cover;
   width: 367px;
   height: 367px;
@@ -842,7 +842,7 @@ top: 75px;
 /*whats this all about section*/
 
 .explanation h3::before{
-  background-image: url(images/oivuakxw-9-va-thomas-verbruggen@3x.png);
+  background-image: url(Images/oivuakxw9vathomasverbruggen@3x.png);
   background-size: cover;
   width: 310px;
   height: 328px;
@@ -903,7 +903,7 @@ margin-top: auto;
 
 /*image*/
 .benefits::before{
-  background-image: url(images/8-dmtbpjjj-7-k-alexandra-seinet@3x.png);
+  background-image: url(Images/8dmtbpjjj7kalexandraseinet@3x.png);
   background-size: cover;
   width: 366px;
   height: 366px;
@@ -1111,7 +1111,7 @@ header h2 {
 
 /*image*/
 .summary::after{
-background-image: url(images/img@3x.jpg);
+background-image: url(Images/img@3x.jpg);
 margin-left: 362px;
 }
 
@@ -1123,7 +1123,7 @@ margin-left: 362px;
 
 /*image*/
 .preamble::before{
-  background-image: url(images/ncq-2-sguvlgo-annie-spratt@3x.png);
+  background-image: url(Images/ncq2sguvlgoanniespratt@3x.png);
   width: 380px;
   height: 380px;
   margin: -60px 522px 193px 122px;
@@ -1150,7 +1150,7 @@ margin-left: 362px;
 /*whats this all about section*/
 
 .explanation h3::before{
-  background-image: url(images/oivuakxw-9-va-thomas-verbruggen@3x.png);
+  background-image: url(Images/oivuakxw9vathomasverbruggen@3x.png);
   width: 328px;
   height: 328px;
   margin: 0px 696px 0px 0px;
@@ -1199,7 +1199,7 @@ margin-top: auto;
 
 /*image*/
 .benefits::before{
-  background-image: url(images/8-dmtbpjjj-7-k-alexandra-seinet@3x.png);
+  background-image: url(Images/8dmtbpjjj7kalexandraseinet@3x.png);
   background-size: cover;
   width: 380px;
   height: 380px;
