@@ -756,15 +756,17 @@ header h2 {
 }
 
 .summary p:nth-of-type(2){ /*moved to top of page*/
+  right: 0;
   left: auto;
-margin: 20px 8px 20px 61.97%;
-width: 286px;
-height: 48px;
-z-index: -1;
-background-color: #ffffff;
+  margin: 20px 8px 20px 0px;
+  width: 286px;
+  height: 48px;
+  z-index: -1;
+  background-color: #ffffff;
 }
 
 .summary p{
+  right: 0;
   width: 420px;
   height: 99px;
   margin-top: 0px;
@@ -797,7 +799,7 @@ background-color: #ffffff;
 .summary::after{
 background-image: url(Images/img@3x.jpg);
 background-size: cover;
-width: 620px;
+width: 80.72%;
 height: 300px;
 margin: 40px 11px 60px 17.83%;
 top: 75px;
@@ -938,8 +940,7 @@ margin-top: auto;
 
 .requirements h3{
   padding-top: 0px;
-  margin-right: 0px;
-  margin-left: 2.60%;
+  margin: 30px 0px 0px 2.60%;
   font-size: 28px;
   width: 236px;
   float: left;
@@ -1091,6 +1092,7 @@ html,body{
 /*buttons container*/
 .summary p:nth-of-type(2){ /*moved to top of page*/
   margin: 20px 8px 20px 698px;
+  right: auto;
 }
 
 /*intro*/
@@ -1112,6 +1114,7 @@ header h2 {
 /*image*/
 .summary::after{
 background-image: url(Images/img@3x.jpg);
+width: 620px;
 margin-left: 362px;
 }
 
