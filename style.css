@@ -84,6 +84,7 @@ header h1:after{
 header h2 {
   width: 87.5%;
   height: 50px;
+  padding-top: 20px;
   margin-top: 82px;
   margin-bottom: 40px;
   text-align: center;
