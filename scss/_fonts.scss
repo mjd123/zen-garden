@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300');
+
+// Font Variables
+$roboto: 'Roboto', sans-serif;   
+$abril: 'Abril Fatface', cursive;
+
+h1, h2, h3{
+    font-family: $abril;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  
+  p{
+    font-family: $roboto;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
